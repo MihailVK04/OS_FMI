@@ -1,0 +1,1 @@
+find . -anewer practice/01/f1
