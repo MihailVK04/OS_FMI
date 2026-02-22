@@ -1,0 +1,1 @@
+find /etc -type d -maxdepth 1 | tail -n 10 > 02-a-5500-result.txt
