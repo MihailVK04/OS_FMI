@@ -1,0 +1,9 @@
+1 - mkdir -p practice/01
+2 - touch practice/01/f1
+    touch practice/01/f2
+    touch practice/01/f3
+3 - mkdir dir1
+    cp practice/01/f1 dir1/f1
+    cp practice/01/f2 dir1/f2
+    cp practice/01/f3 dir1/f3
+    - може и с cp -r practice/01 dir1
