@@ -1,0 +1,5 @@
+mkdir -p practice-test/test1
+cd practice-test/test1
+touch test.txt
+cd
+mv practice-test/test1/test.txt practice-test/test.txt
