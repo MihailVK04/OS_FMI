@@ -1,0 +1,5 @@
+find /etc -perm -444 | head | xargs -I {} cp -r {} ~/myetc
+find myetc/ -name "c*" | xargs -I {} tar -rf c_start.tar {}
+tar -tf c_start.tar
+rm -rf myetc
+rm -i c_start.tar
