@@ -1,0 +1,2 @@
+mkdir ~/myetc
+find /etc/ -perm -444 -exec cp -r {} myetc/ \;
