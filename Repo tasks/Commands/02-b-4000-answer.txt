@@ -1,0 +1,1 @@
+find /etc -type f -exec wc -c {} \; 2>null | sort -nbr | tail -1 | cut -d " " -f 2 | xargs -I {} cp {} ~/
