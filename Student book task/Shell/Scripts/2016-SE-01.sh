@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [[$# != 1]]; then
+    echo "The scripts needs one argument"
+    exit 1
+fi
+
+par=${1}
+
+if [[ -d $par ]]; then
+    find $par -type l
+else
+    echo "The argument is not a directory"
+fi
